@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+  font-size: 50%;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: auto;
+  background-color: $color-anthracite;
+}
+
+.container {
+  max-width: 1150px;
+}
